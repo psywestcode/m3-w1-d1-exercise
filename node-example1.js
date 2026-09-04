@@ -1,13 +1,14 @@
+// node-example1.js
 var log = {
-    info: function (info) { 
+    info: function (info) {
         console.log('Info: ' + info);
     },
-    warning:function (warning) { 
+    warning: function (warning) {
         console.log('Warning: ' + warning);
     },
-    error:function (error) { 
+    error: function (error) {
         console.log('Error: ' + error);
     }
 };
 
-module.exports = log
+module.exports = log; // Expose the log object
